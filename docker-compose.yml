@@ -9,7 +9,7 @@ services:
     user: "netbox:root"
     healthcheck:
       test: /opt/netbox/health.sh
-      start_period: 90s
+      start_period: 360s
       timeout: 3s
       interval: 15s
     volumes:
